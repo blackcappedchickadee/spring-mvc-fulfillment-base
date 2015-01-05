@@ -27,13 +27,13 @@
 				Invoice
 			</h3>
 			<h4>
-				Number: <c:out value="${invoice.name}"/>
+				Number: <c:out value="${invoice.number}"/>
 			<h4>
 			<h4>
 				Description: <c:out value="${invoice.description}"/>
 			<h4>
 			<h4>
-				Status: <c:out value="${invoice.status__c}"/>
+				Status: <c:out value="${invoice.status}"/>
 			<h4>
 		</div>	
 	</body>
