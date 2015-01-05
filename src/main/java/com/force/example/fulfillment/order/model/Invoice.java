@@ -11,8 +11,8 @@ public class Invoice {
     @JsonProperty(value="Name")
     private String number;
 
-    @JsonProperty(value="Description__c")
-    private String description;
+    // @JsonProperty(value="Description__c")
+    // private String description;
 
     @JsonProperty(value="Status__c")
     private String status;
@@ -33,13 +33,13 @@ public class Invoice {
         this.number = number;
     }
 
-    public String getDescription() {
-        return description;
-    }
+    // public String getDescription() {
+    //     return description;
+    // }
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
+    // public void setDescription(String description) {
+    //     this.description = description;
+    // }
 
     public String getStatus() {
         return status;
