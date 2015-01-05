@@ -48,6 +48,7 @@ public class OrderServiceImpl implements OrderService {
 
 	@Override
 	public List<Order> findOrderById(String id) {
+		System.out.println("=====> id is " + id);
 		return em.createQuery("SELECT o FROM Order o WHERE o.id = :id", Order.class)
 		    .setParameter("id", id)
 		    .getResultList();
